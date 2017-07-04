@@ -1,0 +1,24 @@
+body{
+    margin:0;
+    background-blend-mode: darken;
+}
+.row{
+    border-top: 2px solid black;
+}
+.col-sm-2{
+    background-color: ghostwhite;
+    height: 650px;
+}
+.col-sm-8{
+    height: 650px;
+    color: white;
+    background-image: url(../images/building.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: lightsteelblue;
+    opacity: 0.9;
+    background-blend-mode: luminosity;
+}
+input[type=checkbox]:checked{
+    background-color: blue;
+}
